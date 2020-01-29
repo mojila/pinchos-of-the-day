@@ -1,3 +1,5 @@
+![UI](ui.png)
+
 # PREPARATION
 <code>npm i</code>
 
