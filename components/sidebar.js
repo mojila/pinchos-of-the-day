@@ -11,8 +11,11 @@ function Sidebar() {
             <div>
               <Time/>
             </div>
-            <div>
+            <div className="mb-4">
               <TotalStatistics/>
+            </div>
+            <div className="">
+              <img className="mx-auto" src="/assets/images/pinchos.svg" width={200}/>
             </div>
         </div>
     </React.Fragment>

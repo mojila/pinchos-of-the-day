@@ -1,7 +1,7 @@
 import Sidebar from "../components/sidebar"
 import Content from "../components/content"
 
-function HomePage() {
+function HomePage({ stars }) {
   return <React.Fragment>
       <div className="bg-purple-900 p-2">
         <div className="bg-white rounded-lg flex">
