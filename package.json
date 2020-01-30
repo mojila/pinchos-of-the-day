@@ -1,12 +1,12 @@
 {
   "name": "pinchos-of-the-day",
   "version": "0.0.1",
-  "description": "<code>npm i</code>",
+  "description": "Template inpired by https://dribbble.com/shots/9515297-Web-App-Hola-Tapas",
   "main": "index.js",
   "scripts": {
     "dev": "next",
     "tailwind-build": "npx tailwind build public/dev.css -o public/production.css",
-    "build": "npm run tailwind-build && next build",
+    "build": "npm run tailwind-build && next build && next export",
     "start": "next start"
   },
   "keywords": [],
@@ -28,5 +28,5 @@
   "bugs": {
     "url": "https://github.com/mojila/pinchos-of-the-day/issues"
   },
-  "homepage": "https://github.com/mojila/pinchos-of-the-day#readme"
+  "homepage": "https://mojila.github.io/pinchos-of-the-day"
 }
